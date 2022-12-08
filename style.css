@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(48, 48, 48);
+}
+
+ul{
+   /*display: none; */
+}
+ul,
+li {
+    list-style: none;
+    margin-top: 10px auto;
+   /*display: none; */
+
+}
+
+li {
+    border-bottom: 1px solid white;
+    padding: 5px;
+    position: relative;
+    
+
+
+
+}
+
+.parent {
+
+    width: 70%;
+    height: 100px;
+    margin: 100px auto;
+
+
+}
+
+.inputTask {
+    width: 60%;
+    margin: auto 100px;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.parent > .inputFilter{
+    width: 60%;
+    margin: 10px 100px;
+    padding: 15px 10px;
+    font-size: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.users {
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    width: 15%;
+}
+
+i {
+    cursor: pointer;
+    font-size: 15px;
+    position: absolute;
+    left: 90%;
+    transform: translate(50%, 50%);
+
+}
+
+.exists {
+
+    margin: 100px auto;
+}
